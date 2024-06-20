@@ -6,8 +6,8 @@ public class IpAddressFinder{
             System.out.println(address.getHostName());
             System.out.println(address.getHostAddress());
         }
-        catch(Exception e){
-            System.out.println("Error Message:"+e);
+        catch(UnknownHostException e){
+            System.out.println("Error occured:"+e);
         }
     }
 }
