@@ -4,9 +4,9 @@ import java.net.UnknownHostException;
 public class IPTypeChecker {
 
     public static void main(String[] args) {
-        // Replace with the IP address you want to check
+        
         String ip = "192.168.1.1"; // Example IPv4 address
-        // String ip = "2001:0db8:85a3:0000:0000:8a2e:0370:7334"; // Example IPv6 address
+        // String ip = "2001:0db8:85a3:0000:0000:8a2e:0370:7334"; //  IPv6 address
         
         try {
             InetAddress inetAddress = InetAddress.getByName(ip);
