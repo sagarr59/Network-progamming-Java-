@@ -1,3 +1,4 @@
+//Java program for printing the address of www.tufohss.edu.np.
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 public class IpAddressFinder{

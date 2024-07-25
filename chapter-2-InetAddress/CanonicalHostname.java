@@ -1,3 +1,4 @@
+//Java program that finds the canonical hostname of the given address
 import java.net.*;
 public class CanonicalHostname {
     public static void main(String[] args) {

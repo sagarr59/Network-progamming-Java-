@@ -1,3 +1,4 @@
+//Java program to get IPv4 and IPv6 address of a given web address.
 import java.net.*;
 
 public class GetIpAddress {

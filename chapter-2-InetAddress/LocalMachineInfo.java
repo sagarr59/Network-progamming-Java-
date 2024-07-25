@@ -1,3 +1,4 @@
+//Java program to find the IP address and name of the local machine
 import java.net.*;
 
 public class LocalMachineInfo {

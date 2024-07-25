@@ -1,5 +1,5 @@
+//Java  program for testing the characteristics of an IP address
 import java.net.*;
-
 public class IPAddressTester {
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class IPAddressTester {
 
             // Printing the IP address
             System.out.println("IP Address: " + inet.getHostAddress());
-
+            
             // Checking if the IP address is reachable
             System.out.println("Reachable: " + inet.isReachable(5000)); // Timeout in milliseconds
 

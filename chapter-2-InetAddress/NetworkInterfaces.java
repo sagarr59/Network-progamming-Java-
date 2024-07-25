@@ -1,3 +1,4 @@
+//Java program for listing all the network interfaces
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Collections;
