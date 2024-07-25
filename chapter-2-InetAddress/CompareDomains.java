@@ -6,7 +6,7 @@ public class CompareDomains {
         try {
            
             InetAddress address1 = InetAddress.getByName("www.facebook.com");
-            InetAddress address2 = InetAddress.getByName("facebook.com");
+            InetAddress address2 = InetAddress.getByName("m.facebook.com");
 
           
             if (address1.equals(address2)) {
