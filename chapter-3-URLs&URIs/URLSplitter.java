@@ -4,7 +4,7 @@ import java.net.URISyntaxException;
 public class URLSplitter {
     public static void main(String[] args) {
         try {
-            // Example URL to split
+            
             String urlString = "https://www.google.com/search?q=java+programming&hl=en#result";
             URI uri = new URI(urlString);
 
