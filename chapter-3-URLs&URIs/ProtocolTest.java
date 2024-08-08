@@ -20,6 +20,7 @@ public class ProtocolTest {
     static void testProtocol(String url) {
         try {
             // Attempt to create a URL object
+            @SuppressWarnings("deprecation")
             URL u = new URL(url);
             System.out.println(u.getProtocol() + " is supported");
         } catch (MalformedURLException ex) {
