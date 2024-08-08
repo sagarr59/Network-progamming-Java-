@@ -7,7 +7,7 @@ import java.net.URLEncoder;
 public class URIEncodeDecode {
     public static void main(String[] args) {
         try {
-            // Example string to encode
+           
             String original = "Hello Sagar!";
 
             // Encoding the string
@@ -19,7 +19,7 @@ public class URIEncodeDecode {
             System.out.println("Decoded String: " + decoded);
         
         } catch (UnsupportedEncodingException e) {
-            System.out.println("Encoding not supported: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 }
