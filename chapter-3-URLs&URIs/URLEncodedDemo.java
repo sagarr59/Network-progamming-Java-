@@ -19,7 +19,7 @@ public class URLEncodedDemo {
             System.out.println("Decoded String: " + decodedString);
             
         } catch (UnsupportedEncodingException e) {
-            System.err.println("Encoding/Decoding error: " + e.getMessage());
+            System.err.println("Error: " + e.getMessage());
         }
     }
 }
