@@ -1,5 +1,5 @@
-import java.rmi.*;
 import java.net.*;
+import java.rmi.*;
 import java.util.*;
 
 public class Client {
